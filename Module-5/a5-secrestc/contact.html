@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carson Secrest</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='./main.css'>
+  <!-- <script src='main.js'></script> -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./public/images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./public/images/favicons/android-chrome-512x512.png"> 
+  <link rel="icon" type="image/png" sizes="192x192" href="./public/images/favicons/android-chrome-192x192.png"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./public/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./public/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./public/images/favicons/site.webmanifest">
+</head>
+<body>
+  <header>
+    <h1>Carson Secrest</h1>
+    <img src="./public/images/favicons/android-chrome-192x192.png"/>
+  </header>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./contact.html">Contact</a>
+    <a href="./gallery.html">Gallery</a>
+  </nav>
+  <main>
+    <section>
+      <h2>Contact</h2>
+      <article>
+        <p>Got a project idea? Need an unfair advantage?</p>
+        <form>
+          <fieldset>
+            <legend>Get in Touch.</legend>
+            <label for="firstlast">Your Name<span class="text-error">*</span></label>
+            <input type="text" id="firstlast" placeholder="Elon Musk" required></input>
+            <label for="email">Email<span class="text-error">*</span></label>
+            <input type="text" id="email" placeholder="elonmusk@tesla.org" required></input>
+            <label for="work">I work at<span class="text-error">*</span></label>
+            <input type="text" id="work" placeholder="Tesla &copy;" required></input>
+            <p class="select-title">I start work in <span class="text-error">*</span></p>
+            <input type="radio" id="soon" name="time" value="soon" required>
+            <label class="radio" for="soon">&lt; a month</label>
+            <input type="radio" id="notsoon" name="time" value="notsoon" required>
+            <label class="radio" for="notsoon">&gt; a month</label>
+            <p class="select-title">I am looking for (select multiple if needed)<span class="text-error">*</span></p>
+            <input class="checkbox" type="checkbox" id="frontend" name="skillset" value="frontend"  required>
+            <label class="checkbox" for="frontend">frontend design</label>
+            <button type="submit">Let's Do It</button>
+          </fieldset>
+        </form>
+      </article>
+    </section>
+  </main>
+  <footer>&copy; Carson Secrest</footer>
+</body>
+</html>

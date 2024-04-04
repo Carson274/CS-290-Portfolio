@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carson Secrest</title>
+  <link rel='stylesheet' type='text/css' media='screen' href='./main.css'>
+  <!-- <script src='main.js'></script> -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="./images/favicons/android-chrome-512x512.png"> 
+  <link rel="icon" type="image/png" sizes="192x192" href="./images/favicons/android-chrome-192x192.png"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./images/favicons/site.webmanifest">
+</head>
+<body>
+  <header>
+    <h1>Carson Secrest</h1>
+    <img src="./images/favicons/android-chrome-192x192.png"/>
+  </header>
+  <nav>
+    <a href="./index.html">Home</a>
+    <a href="./contact.html">Contact</a>
+    <a href="./gallery.html">Gallery</a>
+  </nav>
+  <main>
+    <section>
+      <h2>Web Development Concepts</h2>
+      <nav class="local">
+        <a href="#servers">Web Servers</a>
+        <a href="#frontend">Frontend Design</a>
+        <a href="#images">Optimized Images</a>
+        <a href="#favicons">Favicons</a>
+        <a href="#css">CSS</a>
+      </nav>
+      </nav>
+      <article id="servers">
+        <h3>Web Servers</h3>
+        <p>The purpose of a designated <strong>home page</strong> is to have one place for the file to return when a blank GET request is received, aka "/", or more broadly, to have an initial or default page users are directed to when they first visist a website.</p>
+        <p>In the <strong>Network</strong> tab, you can see the file path and associated requested resources.</p>
+        <p>The favicon.ico file has a status of 200 because it is a part of the index.html, which as been properly retrieved. The main.css and main.js have a status of 404 because they are not being properly retrieved, hence the "Not Found". This is because main.css and main.js do not exist, and because the client is trying to access them anyways, the status 400 is returned, indicating client error.</p>
+        <p>The <strong>scheme</strong> is https, the <strong>subdomains</strong> are web and engr, the <strong>host domain</strong> is oregonstate.edu, and the <strong>resources</strong> are /~secrestc/CS290-ULA/Module-1/a1-secrestc/.</p>
+      </article>
+      <article id="frontend">
+        <h3>Frontend Design</h3>
+        <p>Frontend design is all about creating a good <strong>user experience</strong>.</p>
+        <dl>
+          <dt><strong>Effective</strong></dt>
+          <dd>Helps users reach their goals.</dd>
+          <dt><strong>Efficient</strong></dt>
+          <dd>Allows users to perform tasks with the least number of steps.</dd>
+          <dt><strong>Easy to Navigate</strong></dt>
+          <dd>Especially for users that have never used it before.</dd>
+          <dt><strong>Error-Free</strong></dt>
+          <dd>To avoid accessibility and availability issues.</dd>
+          <dt><strong>Enjoyable</strong></dt>
+          <dd>It fits the unique needs of the intended audience in content and design.</dd>
+        </dl>
+      </article>
+      <article id="images">
+        <h3>Optimizing Images</h3>
+        <p>Descriptive file name: improves <strong>SEO</strong>; Small <strong>file size</strong>: reduces file size; Exact dimension: prevent incorrect sizes; Correct file format: ensure the appropriate file type is used; Color mode: depends on the type of image, generally RGB</p>
+        <p>Photos: JPG, WebP; Line-art: <strong>PNG</strong>, SVG, GIF</p>
+      </article>
+      <article id="favicons">
+        <h3>Favicons</h3>
+        <p>Browsers and devices use <strong>favicons</strong> to display an icon for the app they're using.</p>
+      </article>
+      <article id="css">
+        <h3>Cascading Stylesheets</h3>
+        <p>The main reasons to incorporate stylesheets into a website are to separate content from design and to improve user experience.</p>
+        <p>The 5 ways to incorporate styles: <strong>External Stylesheets</strong>, <strong>Embedded Stylesheets</strong>, <strong>Inline Styles</strong>, <strong>Imported CSS</strong>, <strong>JavaScript-based Styling</strong></p>
+      </article>
+    </section>
+  </main>
+  <footer>&copy; Carson Secrest</footer>
+</body>
+</html>
